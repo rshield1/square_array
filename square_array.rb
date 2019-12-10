@@ -1,11 +1,10 @@
 def square_array(array)
   
   array.each do |numbers|
-    
-    new_array = []
-    
-    puts new_array << numbers
      
-  end
+  new_array = numbers
   
+  return new_array
+
+end
 end
