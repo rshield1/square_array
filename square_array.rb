@@ -9,5 +9,3 @@ def square_array(array)
   end
   
 end
-
-puts square_array
