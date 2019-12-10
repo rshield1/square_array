@@ -11,3 +11,5 @@ end
 
 
 end
+
+puts square_array
