@@ -8,5 +8,5 @@ def square_array
 
 end
 
-return new_array
+puts new_array
 end
