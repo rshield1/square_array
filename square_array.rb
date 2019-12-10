@@ -1,10 +1,12 @@
-def square_array(array)
+def square_array
+  
+  new_array = []
   
   array.each do |numbers|
-     
-  new_array = numbers
   
-  return new_array
+  new_array = numbers.push()
 
 end
+
+return new_array
 end
