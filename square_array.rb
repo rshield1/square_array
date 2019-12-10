@@ -1,15 +1,13 @@
-def square_array
+def square_array(array)
   
-  new_array = []
+  array.each do |numbers|
+     new_array = []
+  new_array.push(numbers **2)
   
-  array.each do |number|
-  
-  new_array = (number * number)
+  puts new_array
 
+  end
   
-end
-
-
 end
 
 puts square_array
